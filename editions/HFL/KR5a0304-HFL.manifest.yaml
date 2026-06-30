@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0304/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0304/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 漢武帝內傳
+  date: '2015-08-28 23:44:36.352542'
+  source:
+    repository: kanripo
+    path: KR5a0304
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0304_000-HFL.yaml, hash: 'sha256:42f12adbd7eddf1168d286d42be7f78495ae2cc5c92552b178f4bde01f91c569'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0304_000-HFL.markers.yaml, hash: 'sha256:52e7f22117eb595160fc55eb9d4ff273d4610a0baa1930de0c7f7d8554d731ef'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0304_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 53
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:a5a014725229a57eb758d3010dadf1272470d281178b475ae03ced039e9f94f0
